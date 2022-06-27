@@ -38,7 +38,7 @@ import dev.prabhatpandey.moovees.ui.models.Movie
 import dev.prabhatpandey.moovees.ui.navigation.Screen
 import dev.prabhatpandey.moovees.ui.theme.MooveesTheme
 
-@OptIn(ExperimentalPagerApi::class, ExperimentalMaterialApi::class)
+@OptIn(ExperimentalPagerApi::class)
 @Composable
 fun MainScreen(navigate: (screen: Screen) -> Unit) {
 
